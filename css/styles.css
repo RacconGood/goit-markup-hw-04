@@ -123,6 +123,9 @@ p {
 .nav-link:focus {
   color: #404bbf;
 }
+.studio-color{
+  color: #404bbf;
+}
 
 .contact-link {
   cursor: pointer;
