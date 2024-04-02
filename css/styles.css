@@ -154,10 +154,12 @@ p {
   text-align: center;
   align-items: center;
 }
-
-.main-sect {
-  background-color: #2e2f42;;
+.main-wrap{
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+}
+.main-sect {
+  max-width: 1440px;
+  background-color: #2e2f42;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -447,6 +449,11 @@ margin-bottom: 16px;
   gap: 48px 24px;
   flex-wrap: wrap;
   
+}
+.ourportfolio-shadow{
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .ourportfolio-item-cont{
   position: relative;
